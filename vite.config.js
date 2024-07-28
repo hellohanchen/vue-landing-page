@@ -1,8 +1,26 @@
-import { defineConfig } from "vite";
+import {fileURLToPath, URL} from 'node:url'
+
+import {defineConfig} from "vite";
 import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: "/vue-landing-page/",
+    base: "/",
     plugins: [vue()],
+    resolve: {
+        alias: {
+            '@': fileURLToPath(new URL('./src', import.meta.url))
+        }
+    },
+    css: {
+        preprocessorOptions: {
+            scss: {
+                additionalData: `
+          @import "@/assets/styles/_variables.scss";
+          @import "@/assets/styles/_mixins.scss";
+          @import "@/assets/styles/_base.scss";
+        `,
+            },
+        },
+    },
 });

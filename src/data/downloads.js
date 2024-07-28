@@ -20,6 +20,13 @@ const downloads = [
         subTitle: "Minimum version 46",
         link: "#",
     },
+    {
+        id: 4,
+        icon: "images/logo-opera.svg",
+        title: "Add to Opera",
+        subTitle: "Minimum version 46",
+        link: "#",
+    },
 ];
 
 export default downloads;

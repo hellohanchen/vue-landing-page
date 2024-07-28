@@ -23,7 +23,7 @@ let handleSubmit = () => {
 <template>
     <!-- Newsletter Section Start -->
     <div id="subscribe" class="bg-theme-primary mt-10">
-        <div class="container w-full lg:w-2/5 mx-auto px-5">
+        <div class="myContainer w-full lg:w-2/5 mx-auto px-5">
             <section class="py-16">
                 <h4 class="text-sm tracking-widest uppercase text-center text-white font-theme-heading">35,000+ Already Joined</h4>
                 <h2 class="text-3xl md:text-4xl font-medium text-center text-white mt-9 mb-10 font-theme-heading">Stay up-to-date with what we'r doing</h2>

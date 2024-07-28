@@ -1,31 +1,31 @@
 const features = [
     {
         id: 1,
-        name: "Simple Bookmaring",
+        name: "Community",
         details: {
-            imageUrl: "images/illustration-features-tab-1.svg",
-            title: "Bookmark in one click",
-            description: "Organize your bookmarks however you like. Our simple drag-n-drop interface gives you complete control over how you manage your favorite websites.",
+            imageUrl: "images/community.svg",
+            title: "Gathering Power from the Community",
+            description: "We’re building an online community on Twitter and Discord. Join us — no barriers, no commitment. Whether you’re a fan, a dreamer, or just curious, be part of our big plan.",
             link: "#",
         },
     },
     {
         id: 2,
-        name: "Speedy Searching",
+        name: "Compliance",
         details: {
-            imageUrl: "images/illustration-features-tab-2.svg",
-            title: "Intelligent search",
-            description: "Get quick results with our intelligent search feature. Find your bookmarks effortlessly and save time navigating through your favorite websites.",
+            imageUrl: "images/secure.svg",
+            title: "Building a Platform that Investors can Trust",
+            description: "We will work with lawyers and partners to ensure a compliant process. We won’t ask for funds until we’re confident in our bid.",
             link: "#",
         },
     },
     {
         id: 3,
-        name: "Speedy Sharing",
+        name: "Co-Ownership",
         details: {
-            imageUrl: "images/illustration-features-tab-3.svg",
-            title: "Easy sharing",
-            description: "Share your bookmarks seamlessly with others. Our intuitive sharing options allow you to collaborate and spread the word about your favorite websites.",
+            imageUrl: "images/coownership.svg",
+            title: "Sharing the Honor with Partners",
+            description: "We’ll reach out to as many fans and funds as possible. We’re open to a co-ownership model where the community owns minority shares of the franchise. We welcome partnerships with groups and investors who love this team.",
             link: "#",
         },
     },
