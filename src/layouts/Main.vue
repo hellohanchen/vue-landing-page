@@ -1,20 +1,20 @@
 <script setup>
-// import HeroSection from "../sections/HeroSection.vue";
-import FeatureSection from "../sections/FeatureSection.vue";
+import FeatureSection from "../sections/IntroSection.vue";
 import StatsSection from "../sections/StatsSection.vue";
-// import FaqSection from "../sections/FaqSection.vue";
-// import SubscribeSection from "../sections/SubscribeSection.vue";
 import Banner from "@/components/Banner.vue";
+import StorySection from "@/sections/StorySection.vue";
 </script>
 
 <template>
-    <Banner />
+  <Banner/>
 
-    <FeatureSection />
+  <FeatureSection/>
 
-    <StatsSection />
+  <StatsSection/>
 
-<!--    <FaqSection />-->
+  <StorySection/>
 
-<!--    <SubscribeSection />-->
+  <!--    <FaqSection />-->
+
+  <!--    <SubscribeSection />-->
 </template>

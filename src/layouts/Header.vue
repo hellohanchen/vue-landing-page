@@ -71,7 +71,7 @@ export default {
                 <ul v-if="currentRouteName!=='/app' && currentRouteName!=='/app/'"
                     class="uppercase text-white text-md tracking-widest items-center flex flex-col mt-14">
                     <!-- <li class="hover:text-theme-secondary transition duration-200 py-4 border-t border-b border-theme-grayish-blue w-full text-center">
-                        <a  @click="toggleMobileNav()" href="#features">Features</a>
+                        <a  @click="toggleMobileNav()" href="#introductions">Features</a>
                     </li>
                     <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
                         <a  @click="toggleMobileNav()" href="#faq">FAQ</a>

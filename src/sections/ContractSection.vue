@@ -39,7 +39,7 @@ let isOpen = ref(1);
                 <h2 class="text-3xl md:text-4xl font-bold text-black text-center">Simple Secure Sponsorship (SSS) Contract</h2>
                 <p class="text-gray-700 text-center mt-7 font-theme-content text-xl">
                     Project GOAT's smart contract is deployed on Ethereum mainnet at <br/>
-                    <a class="font-bold" href="https://etherscan.io/address/0x46c5264728af4dbe274929f9509fbeabf8cca2c9">0x46c5264728af4dbe274929f9509fbeabf8cca2c9</a>
+                    <a class="font-bold text-wrap break-words" href="https://etherscan.io/address/0x46c5264728af4dbe274929f9509fbeabf8cca2c9">0x46c5264728af4dbe274929f9509fbeabf8cca2c9</a>
                 </p>
             </div>
         </section>

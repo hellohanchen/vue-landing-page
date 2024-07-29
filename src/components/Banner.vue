@@ -4,17 +4,18 @@
       <div class="info__background">
         <div class="info__blur-background"></div>
         <div class="info__info">
-          <h1>REDEFINE THE FANDOM</h1>
+          <h2 class="text-4xl md:text-4xl font-bold text-white text-center">PROJECT GOAT</h2>
           <div style="height: 25%"></div>
-          <p>With tokenization, the relationship between fans and franchises are re-shaped.</p>
-        </div>
-        <div class="the-banner__button">
-          <BannerButton
-              :title="button.title"
-              :link="button.link"
-              :alignment="button.alignment"
-              transparent
-          />
+          <p>Franchise owned by fans. Redefine fandom with tokenization.</p>
+          <div style="height: 25%"></div>
+          <div class="the-banner__button">
+            <BannerButton
+                :title="button.title"
+                :link="button.link"
+                :alignment="button.alignment"
+                transparent
+            />
+          </div>
         </div>
       </div>
     </Container>
